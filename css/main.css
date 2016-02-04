@@ -56,35 +56,51 @@ table {
 
 body {
     font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #ddd;
 }
 
 nav {
     width: 100%;
-    background-color: black;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    background-color: #222;
+    padding-top: 18px;
+    padding-bottom: 18px;
     border-top: 2px solid white;
     text-align:center;
     font-size: 14px;
 }
 
-nav ul {
-    margin-left: auto;
-    margin-right: auto;
-}
-
 nav li {
     display: inline-block;
-    margin: 0 15px;
+    margin: 0 20px;
     vertical-align: top;
 }
 
 nav a {
     text-decoration: none;
-    color: gray;
+    color: #999;
 }
 
 nav a:hover {
     text-decoration: none;
-    color: white;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#section-contact a {
+    text-decoration: none;
+    color: #222;
+}
+
+#section-contact a:hover {
+    text-decoration: none;
+    color: #999;
 }
