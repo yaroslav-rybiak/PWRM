@@ -56,7 +56,54 @@ table {
 
 body {
     font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: #ddd;
+    background-color: #f3f3f3;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+div {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 300;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+section #motto p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #666;
+    line-height: 1.2;
+}
+
+.strong {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1.3;
+}
+
+section h2 {
+    text-transform: uppercase;
+}
+
+section #motto {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
 }
 
 nav {
@@ -64,7 +111,7 @@ nav {
     background-color: #222;
     padding-top: 18px;
     padding-bottom: 18px;
-    border-top: 2px solid white;
+    border-top: 2px solid #f3f3f3;
     text-align:center;
     font-size: 14px;
 }
@@ -95,6 +142,11 @@ footer {
     font-weight: 300;
 }
 
+#sections {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
 #section-contact a {
     text-decoration: none;
     color: #222;
@@ -103,4 +155,34 @@ footer {
 #section-contact a:hover {
     text-decoration: none;
     color: #999;
+}
+
+#frontend {
+    float: left;
+    width: 50%;
+    padding-right: 5px;
+}
+
+#responsive {
+    float: right;
+    width: 50%;
+    padding-left: 5px;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+.group {
+    clear: both;
+    *zoom: 1;
 }
