@@ -1,100 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
     <meta charset="UTF-8">
     <meta name="keywords" content="html5, html, css3, css, responsive, mobile, web, website, developer, frontend" />
     <meta name="description" content="Yaroslav Rybiak is a frontend web developer, specialising in mobile responsive HTML5 & CSS3 websites." />
     <meta name="author" content="Yaroslav Rybiak" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/font-awesome.min.css" />
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,400,700" />
     <title>Yaroslav Rybiak — frontend web developer, specialising in mobile responsive HTML5 & CSS3 websites.</title>
 </head>
-<body>
+<body id="body" data-spy="scroll" data-target=".navbar" data-offset="50">
 
-<nav role="navigation">
-    <ul>
-        <li><a href="#section-skills">Expertise</a></li><!--
-     --><li><a href="#section-work">Projects</a></li><!--
-     --><li><a href="#section-process">Process</a></li><!--
-     --><li><a href="#section-timeline">Timeline</a></li><!--
-     --><li><a href="#section-contact">Contact</a></li>
-    </ul>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#body">rybiak.me</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#section-skills">Expertise</a></li>
+                <li><a href="#section-work">Projects</a></li>
+                <li><a href="#section-process">Process</a></li>
+                <li><a href="#section-timeline">Timeline</a></li>
+                <li><a href="#section-contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
 </nav>
-<main id="sections" role="main">
 
+<header class="jumbotron">
+    <div class="wide-space"></div>
+    <div class="container">
+        <div class="row row-header">
+
+            <div class="col-xs-12 col-sm-6 col-sm-push-3">
+                <p>Obsessively thorough mobile responsive web development, with HTML5, CSS3, jQuery and WordPress.</p>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+            </div>
+        </div>
+        <div class="row">
+            <a class="button-custom" href="#section-skills">Read more</a>
+        </div>
+    </div>
+</header>
+<div class="container">
     <section id="section-skills">
-        <div id ="motto">
-            <h2>Skills & Expertise</h2>
+        <div class="row">
+            <div class="col-xs-12">
+                <div id ="motto">
+                    <h2>Skills & Expertise</h2>
+                    <p>I've been developing my skill–set to focus on what’s most suited to getting<br>the job done quickly and effectively.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <h4>
+                        HTML5
+                    </h4>
+                    <p class="strong">
+                        If you need a new website, you certainly need someone who can code HTML.
+                    </p>
+                    <p>
+                        Must-have for any webdesigner. It's so obvious, it's almost not worth mentioning.
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <h4>
+                        CSS3
+                    </h4>
+                    <p class="strong">
+                        Pure HTML is plain and boring, but CSS can add some spices to your website.
+                    </p>
+                    <p>
+                        CSS helps me create beautiful and intuitive websites, something that is really impossible with pure HTML.
+                    </p>
+                </div>
 
-            <p>I've been developing my skill–set to focus on what’s most suited to getting<br>the job done quickly and effectively.</p>
+                <div class="col-xs-12 col-sm-4">
+                    <h4>
+                        Javascript
+                    </h4>
+                    <p class="strong">
+                        If you want something special on your webpage, javascript is what you looking for.
+                    </p>
+                    <p>
+                        I use technologies such as Angular and JQuery to make something special. Sticky navigation menu is a good example.
+                    </p>
+                </div>
+            </div>
         </div>
+    </section>
 
-        <div class="group">
-            <div id="html5">
-                <h4>
-                    HTML5
-                </h4>
-                <p class="strong">
-                    If you need a new website, you certainly need someone who can code HTML.
-                </p>
-                <p>
-                    Must-have for any webdesigner. It's so obvious, it's almost not worth mentioning.
-                </p>
-            </div>
-            <div id="css3">
-                <h4>
-                    CSS3
-                </h4>
-                <p class="strong">
-                    Pure HTML is plain and boring, but CSS can add some spices to your website.
-                </p>
-                <p>
-                    CSS helps me create beautiful and intuitive websites, something that is really impossible with pure HTML.
-                </p>
-            </div>
-
-            <div id="javascript">
-                <h4>
-                    Javascript
-                </h4>
-                <p class="strong">
-                    If you want something special on your webpage, javascript is what you looking for.
-                </p>
-                <p>
-                    I use technologies such as Angular and JQuery to make something special. Sticky navigation menu is a good example.
-                </p>
-            </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <section id="section-work">
+                Projects<br>test<br>test<br>test<br>test<br>test<br>test<br>
+                test<br>test<br>test<br>test<br>test<br>test<br>test<br>
+                test<br>test<br>test<br>test<br>test<br>test<br>test<br>
+                test<br>test<br>test<br>test<br>test<br>test<br>test<br>
+                test<br>test<br>test<br>test<br>test<br>test<br>test<br>
+                test<br>test<br>test<br>test<br>test<br>test<br>test<br>
+                test<br>test<br>test<br>test<br>test<br>test<br>test<br>
+                test<br>test<br>test<br>test<br>test<br>test<br>test<br>
+            </section>
         </div>
-    </section>
+    </div>
 
-    <section id="section-work">
-        Projects<br>test<br>test<br>test<br>test<br>test<br>test<br>
-        test<br>test<br>test<br>test<br>test<br>test<br>test<br>
-    </section>
+    <div class="row">
+        <div class="col-xs-12">
+            <section id="section-process">
+                Process<br>test<br>test<br>test<br>test<br>test<br>test<br>
+                test<br>test<br>test<br>test<br>test<br>test<br>test<br>
+                test<br>test<br>test<br>test<br>test<br>test<br>test<br>
+                test<br>test<br>test<br>test<br>test<br>test<br>test<br>
+                test<br>test<br>test<br>test<br>test<br>test<br>test<br>
+                test<br>test<br>test<br>test<br>test<br>test<br>test<br>
+                test<br>test<br>test<br>test<br>test<br>test<br>test<br>
+                test<br>test<br>test<br>test<br>test<br>test<br>test<br>
+            </section>
+        </div>
+    </div>
 
-    <section id="section-process">
-        Process<br>test<br>test<br>test<br>test<br>test<br>test<br>
-        test<br>test<br>test<br>test<br>test<br>test<br>test<br>
-    </section>
+    <div class="row">
+        <div class="col-xs-12">
+            <section id="section-timeline">
+                Timeline<br>test<br>test<br>test<br>test<br>test<br>test<br>
+                test<br>test<br>test<br>test<br>test<br>test<br>test<br>
+                test<br>test<br>test<br>test<br>test<br>test<br>test<br>
+                test<br>test<br>test<br>test<br>test<br>test<br>test<br>
+                test<br>test<br>test<br>test<br>test<br>test<br>test<br>
+                test<br>test<br>test<br>test<br>test<br>test<br>test<br>
+                test<br>test<br>test<br>test<br>test<br>test<br>test<br>
+                test<br>test<br>test<br>test<br>test<br>test<br>test<br>
+            </section>
+        </div>
+    </div>
 
-    <section id="section-timeline">
-        Timeline<br>test<br>test<br>test<br>test<br>test<br>test<br>
-        test<br>test<br>test<br>test<br>test<br>test<br>test<br>
-    </section>
+    <div class="row">
+        <div class="col-xs-12">
+            <section id="section-contact">
+                <i class="fa fa-at"></i>&nbsp;<a href="mailto:yaroslav.rybiak@gmail.com">yaroslav.rybiak@gmail.com</a><br>
+                <i class="fa fa-phone"></i>&nbsp;<a href="tel:+380992700340">+380 99 270-03-40</a><br>
+                <i class="fa fa-linkedin"></i>&nbsp;<a href="https://ua.linkedin.com/in/yrybiak" target="_blank">yrybiak</a><br>
+                <i class="fa fa-skype"></i>&nbsp;<a href="skype:yaroslav.rybiak">yaroslav.rybiak</a><br>
+                test<br>test<br>test<br>test<br>test<br>test<br>test<br>
+                test<br>test<br>test<br>test<br>test<br>test<br>test<br>
+                test<br>test<br>test<br>test<br>test<br>test<br>test<br>
+                test<br>test<br>test<br>test<br>test<br>test<br>test<br>
+                test<br>test<br>test<br>test<br>test<br>test<br>test<br>
+                test<br>test<br>test<br>test<br>test<br>test<br>test<br>
+                test<br>test<br>test<br>test<br>test<br>test<br>test<br>
+            </section>
+        </div>
+    </div>
 
-    <section id="section-contact">
-        e. <a href="mailto:yaroslav.rybiak@gmail.com">yaroslav.rybiak@gmail.com</a><br>
-        p. <a href="tel:+380992700340">+380 99 270-03-40</a><br>
-        l. <a href="https://ua.linkedin.com/in/yrybiak" target="_blank">yrybiak</a><br>
-        s. <a href="skype:yaroslav.rybiak">yaroslav.rybiak</a>
-    </section>
-
-</main>
-
+</div>
 <footer>
-    <p><em>My name is Yaroslav Rybiak. I am frontend web developer, based in Kyiv, Ukraine.</em></p>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <p><em>My name is Yaroslav Rybiak. I am frontend web developer, based in Kyiv, Ukraine.</em></p>
+            </div>
+        </div>
+    </div>
 </footer>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-<script src="js/navigation.js"></script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/smooth-scrolling.js"></script>
 </body>
 </html>
