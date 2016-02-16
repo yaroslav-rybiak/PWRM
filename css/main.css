@@ -1,68 +1,13 @@
-﻿body {
+﻿html,body {
+    height:100%;
+}
+
+body {
     font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #f3f3f3;
     font-size: 16px;
     font-weight: 300;
     padding-top: 50px;
-}
-
-section #motto p {
-    font-size: 18px;
-    font-weight: 300;
-    color: #666;
-    line-height: 1.2;
-    text-align: center;
-}
-
-section {
-    padding-top: 50px;
-}
-
-.strong {
-    font-size: 20px;
-    font-weight: 400;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    line-height: 1.3;
-}
-
-section #motto {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    text-align: center;
-}
-
-html,body {
-    height:100%;
-}
-
-.jumbotron {
-    height: 100%;
-    text-align: center;
-    color: white;
-    background-color: indianred;
-}
-.wide-space {
-    height: 40%;
-}
-
-.button-custom {
-    background: transparent none repeat scroll 0 0;
-    border: 2px solid rgba(255, 255, 255, 0.5);
-    color: #fff;
-    cursor: pointer;
-    font-size: 14px;
-    padding:15px 20px;
-    transition: all 0.3s ease 0s;
-    display: inline-block;
-    text-transform: uppercase;
-    margin-top: 100px;
-}
-
-.button-custom:hover, .button-custom:focus, .button-custom:active {
-    text-decoration: none;
-    color: #fff;
-    outline: none;
 }
 
 .navbar .navbar-nav {
@@ -98,4 +43,72 @@ html,body {
 
 .navbar-inverse .navbar-nav li a:focus {
     outline: none;
+}
+
+#expertise-header p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #666;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.strong {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1.3;
+}
+
+#expertise-header, #skills-header {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.jumbotron {
+    height: 100%;
+    text-align: center;
+    color: white;
+    background-color: indianred;
+}
+
+.wide-space {
+    height: 40%;
+}
+
+.button-custom {
+    background: transparent none repeat scroll 0 0;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    padding:15px 20px;
+    transition: all 0.3s ease 0s;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+
+.button-custom:hover, .button-custom:focus, .button-custom:active {
+    text-decoration: none;
+    color: #fff;
+    outline: none;
+}
+
+.row-skills h2, .row-expertise h4 {
+    text-align: center;
+}
+
+.div-skill {
+    background-color: #ddd;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.div-skill:hover {
+    background-color: #ccc;
 }
