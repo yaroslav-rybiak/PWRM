@@ -10,15 +10,21 @@ body {
     padding-top:50px;
 }
 
-.navbar .navbar-nav {
-    display:inline-block;
-    float:none;
-    vertical-align:top;
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
 
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
 }
 
-.navbar .navbar-collapse {
-    text-align:center;
+.navbar-left {
+    float: left;
+    margin-left: 10px;
 }
 
 .navbar-inverse {
